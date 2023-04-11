@@ -1,0 +1,27 @@
+.container{
+  width: 50%;
+  height: 500px;
+  border: 1px solid black;
+  margin: auto;
+}
+.SearchBar>input{
+  padding: 20px 100px;
+  text-align: center;
+  font-size: 30px;
+}
+.SearchBar{
+  text-align: center;
+}
+.btn-addnewcity{
+  padding: 30px 50px;
+  margin-bottom: 2px;
+}
+.Temp-details{
+  text-align: center;
+}
+.validCity{
+  margin: 25px 25px;
+  color: white;
+  background: tomato;
+  font-size: 35px;
+}

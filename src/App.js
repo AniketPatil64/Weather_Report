@@ -63,18 +63,18 @@ function App() {
       }
       {
         error &&
-        <div className="validCity">Enter valid City Name</div>
+        <h4 className="validCity">Enter valid City Name</h4>
        }
     
       {
         location &&
-        <div>Last {Listdata.length} Entries
+        <h4>Last {Listdata.length} Entries
         <ul>
           {Listdata.map((item, index) => {
             return <li key={index}>{item}</li>;
           })}
         </ul>
-      </div>
+      </h4>
       }
       </div>
     </div>
